@@ -47,7 +47,7 @@ function drawImage(imgName, xpos, ypos, width, height, rotation) {
     ctx.translate(-xpos, -ypos);
 }
 //sound loading--------------------------------------------------------------
-var soundFiles = ["test1.wav", "test2.wav", "The Box.mp3"];
+var soundFiles = ["Test1.wav", "Test2.wav", "The Box.mp3"];
 var Sounds = {};
 var loadCount = 0;
 function loadSounds() {
